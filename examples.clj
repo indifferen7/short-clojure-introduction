@@ -54,7 +54,7 @@ foo
 
 ; Show the shorthand notation for anonymous functions. Perhaps compare the 
 ; syntactic sugar with arrow functions in e.g. JavaScript (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
-(def anonymous #(* %1 %1))
+(def shorthand #(* %1 %1))
 
 ; Show how the above function can be defined as a named function using defn.
 (defn square
