@@ -52,15 +52,24 @@ foo
 (def anonymous
   (fn [n] (* n n)))
 
+; Evaluate it to demonstrate that it works.
+(anonymous 3)
+
 ; Show the shorthand notation for anonymous functions. Perhaps compare the 
 ; syntactic sugar with arrow functions in e.g. JavaScript (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
 (def shorthand #(* %1 %1))
+
+; This evaluation produces the same result.
+(shorthand 3)
 
 ; Show how the above function can be defined as a named function using defn.
 (defn square
   "Squares the provided number"
   [n]
   (* n n))
+
+; Evaluate just to be consistent.
+(square 3)
 
 ; Give an example of the documentation facilities accessible via the REPL.
 (doc square)
