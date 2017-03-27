@@ -32,6 +32,7 @@
 ; Sometimes there is an equivalent Clojure function to use.
 (count "foo")
 
+; There are tons more to say about this subject, but that's for another day.
 
 
 ;;; 3. Vars and functions
