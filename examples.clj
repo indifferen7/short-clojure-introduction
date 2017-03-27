@@ -42,6 +42,9 @@
 ; with variables in other languages can be made to give some reference.
 (def foo "bar")
 
+; Show the value of foo in your REPL.
+foo
+
 ; Show an example of an anonymous function and that functions in Clojure 
 ; are first-class. Perhaps compare the structure of fn below with anonymous 
 ; functions in JavaScript for reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions).
