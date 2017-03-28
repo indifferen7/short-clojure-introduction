@@ -1,3 +1,8 @@
+;;; 0. Before code
+; Show a slide or two that explains what Clojure is. One thing that might 
+; be cool to say is that Clojure benefits from the concept of Persistent Data 
+; Structures (https://en.wikipedia.org/wiki/Persistent_data_structure).
+
 ;;; 1. First steps
 
 ; Start with the most basic example.
@@ -90,7 +95,8 @@ foo
 (map square numbers)
 ; Compare with map in e.g. Java or JavaScript. Stress that a new sequence is 
 ; returned when evaluated and that the core data structures in clojure are 
-; immutable. If you want to you can go on and talk about persistent data structures here.
+; immutable. If you want to you can go on and talk about persistent data structures 
+; here, if not already discussed.
 
 ; Show how collections can be filtered using a predicate. Again, compare with 
 ; other known languages for the listeners, e.g. JavaScript or Java. Explain the 
